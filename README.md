@@ -24,5 +24,5 @@ Aplikasi untuk pengujian konsep Cloud Computing dan ITNSA
 4. Buat direktori baru di dalam folder aplikasi untuk menyimpan file foto
    ```bash
    sudo mkdir /var/www/html/uploads
-5. Konfigurasi DNS di MikroTik dengan ketentuan http://<nama>.internal
+5. Konfigurasi DNS di MikroTik dengan ketentuan http://namaanda.internal
 5. Test 
