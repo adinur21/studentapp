@@ -9,8 +9,7 @@ Aplikasi untuk pengujian konsep Cloud Computing dan ITNSA
    sudo yum install -y git httpd php php-mysqlnd 
    
 2. Konfigurasi file config.php sesuai dengan credentials service AWS anda
-3. SQL untuk membuat tabel
-Jalankan query ini di database RDS Anda (misalnya melalui MySQL Workbench atau DBeaver) untuk membuat tabel siswa.
+3. SQL untuk membuat tabel. Jalankan query ini di database RDS Anda (misalnya melalui MySQL Workbench atau DBeaver) untuk membuat tabel siswa.
    ```bash
    CREATE DATABASE db_sekolah;
    USE db_sekolah;
