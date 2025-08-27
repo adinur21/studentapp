@@ -1,6 +1,8 @@
 # Student App
 Aplikasi untuk pengujian konsep Cloud Computing dan ITNSA
 
+([UKK CC CS NSA.png](https://github.com/adinur21/crud-ukk/blob/main/UKK2025.drawio.png))
+
 1. Deploy di VM CentOS dengan Apache, Git
    ```bash
    sudo yum update -y
