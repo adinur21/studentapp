@@ -24,5 +24,11 @@ Aplikasi untuk pengujian konsep Cloud Computing dan ITNSA
 4. Buat direktori baru di dalam folder aplikasi untuk menyimpan file foto
    ```bash
    sudo mkdir /var/www/html/uploads
-5. Konfigurasi DNS di MikroTik dengan ketentuan http://namaanda.internal
-5. Test 
+5. Atur izin direktory upload
+   ```bash
+   sudo chown apache:apache /var/www/html/uploads
+6. Pastikan SELinux diizinkan mengakases RDS (optional)
+   ```bash
+   sudo setsebool -P httpd_can_network_connect 1
+7. Konfigurasi DNS di MikroTik dengan ketentuan http://namaanda.internal
+8. Test 
